@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - "6"
-  - "6.1"
-  - "5.11"
-  - "0.6"
-  - "iojs"
+  - "7.4.0"
+before_install:
+  - npm install
+script:
+  - npm build    
 # uncomment and edit the following line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
